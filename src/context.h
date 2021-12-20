@@ -34,6 +34,10 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #include "config.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct context_ context;
 
 //
@@ -136,5 +140,9 @@ const ctxx_char_t* context_yytext(context *self);
  * @return int      Token str length.
  */
 int context_yyleng(context *self);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif //_CONTEXT_
