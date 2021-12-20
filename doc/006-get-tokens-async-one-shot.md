@@ -4,7 +4,7 @@ To get the tokens.
 
 To send token outside of lexer-function.
  1. Using pointers to send **token-string-start** and **token-string-length** to outside.
- 2. Each **user-code** of **re2c-rule** should using a **return**.
+ 2. Each **user-code** of **re2c-rule** should using a **return** <an-user-id>.
 
 > The full source file is project/tests/test05.lex
 
