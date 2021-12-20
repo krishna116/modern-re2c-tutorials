@@ -24,7 +24,7 @@ re2c mtags are also place-holders. mtag will be inserted directly in the **regex
       keyAndValue = #a1 [a-zA-z]+ #a2 [ ]* "=" [ ]*  #b1 ([a-zA-Z0-9] | '-' | '_')+ #b2 [ ]* ";" [ \r\n]* ;
 
       ```
-  5. Using your **regex pattern** in your rule. For example:
+  5. Using the **regex pattern** in your rule and access the mtags in the code. For example:
       ```
       keyAndValue {
       printf("[v]\n");
