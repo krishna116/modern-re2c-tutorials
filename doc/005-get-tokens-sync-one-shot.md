@@ -30,7 +30,7 @@
                 return an_user_id;
             }
     ```
- 4. Get the tokens: just need take care YYCURSER. 
+ 4. To get the tokens, you just need take care YYCURSER. 
       1. Before lexer next start, using a pointer like `const char* yytext` to get a copy of current YYCURSER position. 
       2. After lexer next hit/meet a rule(before run the user-code), the `yytext` is the **token-string-start** and the `YYCURSER - yytext` is the **token-string-length**.
 
