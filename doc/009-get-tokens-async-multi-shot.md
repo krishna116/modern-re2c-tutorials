@@ -18,9 +18,9 @@ The changes between previous section and this section are:
     ```
     ctx->_yyleng = last_token_size;
     ```
-    Follow line is used to reset lexer. Don't using it when lexer interrupt(request more input), because the buffer may be inconsecutive when lexer interrupt(you may get half a word).  
+    Follow line is used to reset lexer. Don't use it when lexer interrupt(request more input), because the buffer may be inconsecutive when lexer interrupt(you may get half a word).  
 
-    > What does reset mean? It tells re2c lexer to discard internal states and restart working. The YYCURSER is a forward iterator and it never goes back, so when you do reset the YYCURSER will hold at its current position.  
+    > What does reset mean? It tells re2c lexer to reset internal states and restart working. The YYCURSER is a forward iterator and it never goes back, so when you do reset the YYCURSER will hold at its current position.  
     ```
     ctx->_state = -1;
     ```
