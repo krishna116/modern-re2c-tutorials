@@ -27,7 +27,7 @@ re2c stags are place-holders between **lexer pattens**.  In order to using stags
         spaces         = [ \t]+ ;
         keyValEnd      = [;] ;
         ```
-  5. Using your **stag**s in the re2c-rule. For example:
+  5. Using **stag**s betweeen regex-pattern, and access **stag**s in the code. For example:
         ```
         @keyBeg key @keyEnd { // (keyEnd - keyBeg) is the key size;
 
