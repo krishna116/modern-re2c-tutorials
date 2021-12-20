@@ -23,7 +23,7 @@ Follow things should be done when using condition-rules:
     ```
  4. When compile you_file.lex append this option **--conditions**, for example:
     ```
-    re2c.exe your_file.lex -o you_file.c --conditions
+    re2c.exe your_file.lex -o your_file.c --conditions
     ```
 
 > The full source file is project/tests/test11.lex
