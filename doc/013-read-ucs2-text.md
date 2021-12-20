@@ -1,5 +1,5 @@
 # <a id="ReadingUcs2">Read ucs2 text.</a>
-The ucs2 is fixed-2-byte-encoding for code-point, when read ucs2 text follow things should be done:
+The ucs2 is fixed-2-byte-size for code-point, when read ucs2 text follow things should be done:
  1. Provide this re2c configuration.
     ```
     re2c:define:YYCTYPE     = uint16_t;

@@ -35,4 +35,4 @@ re2c stags are place-holders between **lexer pattens**.  In order to using stags
         ```
   6. When compile your_file.lex, append this option **--tags** to re2c.exe  
 
-> The full source file is project/tests/test16.lex
+> The full source file is project/tests/test15.lex

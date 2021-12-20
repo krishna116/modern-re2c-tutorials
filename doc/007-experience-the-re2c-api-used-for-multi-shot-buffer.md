@@ -19,7 +19,7 @@ This code logic is just as the same as get tokens in sync-mode with one-shot-buf
     re2c:yyfill:enable      = 1;                            //must be set.
     re2c:define:YYFILL      = "return LexerNeedMoreInput;"; //must be set.
     ```
- 4. Using option `--storable-state` when compile you_file.lex, for example:
+ 4. Using option **--storable-state** when compile your_file.lex, for example:
     ```
     re2c.exe you_file.lex -o you_file.c --storable-state
     ```

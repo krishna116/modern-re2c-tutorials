@@ -1,7 +1,7 @@
 # <a id="GetTokensAsyncMulti">Get tokens in async-mode with multi-shot-buffer.</a>
 Before read this section, you should have read previous section.  
 
-The change between previous section and this section are:
+The changes between previous section and this section are:
  1. Every user-code of the re2c-rule should using a **return**, and **reset** lexer before return.  
     ```
     [0-9]+  { ctx->reset(ctx);    //reset;

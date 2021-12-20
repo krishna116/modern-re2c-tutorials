@@ -1,7 +1,7 @@
 # <a id="GetTokensSyncMulti">Get tokens in sync-mode with multi-shot-buffer.</a>
 Before read this section, you should have read previous section. 
 
-The change between previous section and this section are:
+The changes between previous section and this section are:
  1. I have switched the custom-context in the code to context2 library provided in this project/src folder.
  2. You just need process lexer-interrupt: `LexerNeedMoreInput` outside the lexer-function.
     ```
