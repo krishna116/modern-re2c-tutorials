@@ -16,7 +16,7 @@
     ```
     //this is user-eof-rule.
     [\x00]  { //do something. 
-                return a_user_id;
+                return an_user_id;
             }
     ```
     - If using re2c-eof-rule.
@@ -27,7 +27,7 @@
 
     //this is re2c-eof-rule.
     $       { //do something. 
-                return a_user_id;
+                return an_user_id;
             }
     ```
  4. Get the tokens: just need take care YYCURSER. 
